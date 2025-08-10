@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import PageLoader from './components/layout/PageLoader';
@@ -17,27 +17,25 @@ const SortingVisualizer = lazy(() => import('./components/Sorting/SortingVisuali
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="flex flex-col min-h-screen bg-gradient-to-br from-background to-secondary">
-        <Header />
-        <main className="flex-grow container mx-auto px-4 py-8">
-          <Suspense fallback={<PageLoader />}>
-            <Routes>
-              <Route path="/" element={<Landing />} />
-              <Route path="/array" element={<ArrayVisualizer />} />
-              <Route path="/stack" element={<StackVisualizer />} />
-              <Route path="/queue" element={<QueueVisualizer />} />
-              <Route path="/linked-list" element={<LinkedListVisualizer />} />
-              <Route path="/bst" element={<BSTVisualizer />} />
-              <Route path="/graph" element={<GraphVisualizer />} />
-              <Route path="/sorting" element={<SortingVisualizer />} />
-              <Route path="/hash-table" element={<HashTableVisualizer />} />
-            </Routes>
-          </Suspense>
-        </main>
-        <Footer />
-      </div>
-    </BrowserRouter>
+    <div className="flex flex-col min-h-screen bg-gradient-to-br from-background to-secondary">
+      <Header />
+      <main className="flex-grow container mx-auto px-4 py-8">
+        <Suspense fallback={<PageLoader />}>
+          <Routes>
+            <Route path="/" element={<Landing />} />
+            <Route path="/array" element={<ArrayVisualizer />} />
+            <Route path="/stack" element={<StackVisualizer />} />
+            <Route path="/queue" element={<QueueVisualizer />} />
+            <Route path="/linked-list" element={<LinkedListVisualizer />} />
+            <Route path="/bst" element={<BSTVisualizer />} />
+            <Route path="/graph" element={<GraphVisualizer />} />
+            <Route path="/sorting" element={<SortingVisualizer />} />
+            <Route path="/hash-table" element={<HashTableVisualizer />} />
+          </Routes>
+        </Suspense>
+      </main>
+      <Footer />
+    </div>
   );
 }
 
