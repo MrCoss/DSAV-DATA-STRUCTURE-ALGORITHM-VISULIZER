@@ -12,7 +12,7 @@ const Header = () => {
       <nav className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center">
-            <img src="/assets/logo.png" alt="DSAV Logo" className="h-10" />
+            <img src="/logo.png" alt="DSAV Logo" className="h-10" />
           </Link>
           <div className="flex flex-wrap items-center gap-4">
             <NavLink to="/array" className={navLinkClass}>
