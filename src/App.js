@@ -4,6 +4,7 @@ import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import PageLoader from './components/layout/PageLoader';
 import Landing from './components/layout/landing';
+import Rate from './components/layout/Rate';
 
 // Lazy load all visualizer components for better initial load performance
 const ArrayVisualizer = lazy(() => import('./components/Array/ArrayVisualizer'));
