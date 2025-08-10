@@ -4,7 +4,6 @@ import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import PageLoader from './components/layout/PageLoader';
 import Landing from './components/layout/landing';
-import Rate from './components/layout/Rate';
 
 // Lazy load all visualizer components for better initial load performance
 const ArrayVisualizer = lazy(() => import('./components/Array/ArrayVisualizer'));
@@ -15,6 +14,7 @@ const BSTVisualizer = lazy(() => import('./components/BST/BSTVisualizer'));
 const GraphVisualizer = lazy(() => import('./components/Graph/GraphVisualizer'));
 const HashTableVisualizer = lazy(() => import('./components/HashTable/HashTableVisualizer'));
 const SortingVisualizer = lazy(() => import('./components/Sorting/SortingVisualizer'));
+const About = lazy(() => import('./components/layout/About'));
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
         <Suspense fallback={<PageLoader />}>
           <Routes>
             <Route path="/" element={<Landing />} />
+            <Route path="/about" element={<About />} />
             <Route path="/array" element={<ArrayVisualizer />} />
             <Route path="/stack" element={<StackVisualizer />} />
             <Route path="/queue" element={<QueueVisualizer />} />
