@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/css/main.24aa05a5.css",
-    "main.js": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/js/main.cf0a33a6.js",
+    "main.css": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/css/main.68f3946b.css",
+    "main.js": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/js/main.beca88e4.js",
     "static/js/330.4027f1d5.chunk.js": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/js/330.4027f1d5.chunk.js",
     "static/js/500.b2e53d0d.chunk.js": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/js/500.b2e53d0d.chunk.js",
     "static/js/726.e43a8bb8.chunk.js": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/js/726.e43a8bb8.chunk.js",
@@ -13,8 +13,8 @@
     "static/js/683.5d9c5284.chunk.js": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/js/683.5d9c5284.chunk.js",
     "static/js/155.d9fe2b19.chunk.js": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/js/155.d9fe2b19.chunk.js",
     "index.html": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/index.html",
-    "main.24aa05a5.css.map": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/css/main.24aa05a5.css.map",
-    "main.cf0a33a6.js.map": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/js/main.cf0a33a6.js.map",
+    "main.68f3946b.css.map": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/css/main.68f3946b.css.map",
+    "main.beca88e4.js.map": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/js/main.beca88e4.js.map",
     "330.4027f1d5.chunk.js.map": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/js/330.4027f1d5.chunk.js.map",
     "500.b2e53d0d.chunk.js.map": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/js/500.b2e53d0d.chunk.js.map",
     "726.e43a8bb8.chunk.js.map": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/js/726.e43a8bb8.chunk.js.map",
@@ -27,7 +27,7 @@
     "155.d9fe2b19.chunk.js.map": "/DSAV-DATA-STRUCTURE-ALGORITHM-VISULIZER/static/js/155.d9fe2b19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24aa05a5.css",
-    "static/js/main.cf0a33a6.js"
+    "static/css/main.68f3946b.css",
+    "static/js/main.beca88e4.js"
   ]
 }
